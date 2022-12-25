@@ -65,10 +65,10 @@ void print_tree(int cols, int rows){
             printf(left_down_conner);
           }
           if((yellow_rd < rows - 10) && (row > 3 && row < rows - 10) && col >= (middle - correction/2) && col <= (middle+ correction/2)){
-              printf(YELLOW "#" RESET);
+              printf(YELLOW "@" RESET);
           }
           else if((red_rd < rows - 10) && (row > 3 && row < rows - 10) && col >= (middle - correction/2) && col <= (middle+ correction/2)){
-              printf(RED "#" RESET);
+              printf(RED "@" RESET);
           }
           else if((row > 2 && row < rows - 10) && col >= (middle - correction/2) && col <= (middle+ correction/2)){
               printf(GREEN "#" RESET);
